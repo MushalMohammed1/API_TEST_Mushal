@@ -7,7 +7,7 @@ import os
 
 app = FastAPI()
 # Load model and scaler safely
-model_path = "D:/Documents/Downloads/Usecase4 Yasser/knn_model.joblib"
+model_path = "knn_model.joblib"
 scaler_path = "D:/Documents/Downloads/Usecase4 Yasser/Models/scaler.joblib"
 
 if os.path.exists(model_path) and os.path.exists(scaler_path):
